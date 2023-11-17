@@ -1,0 +1,47 @@
+*
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: brown;
+    font-family: sans-serif;
+}
+a
+{
+    color: blueviolet;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+a:visited
+{
+    color: gray;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+}
+.zdjecie
+{
+    width: 15%;
+    height: 15%;
+    border-radius: 15px;
+}
+#obramowanie
+{
+
+
+}
+#podpis
+{
+    font-size: 15px;
+    width: 15%;
+}
+body
+{
+    background-image: url(images/boisko.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
